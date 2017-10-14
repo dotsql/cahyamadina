@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cahya Madina Travel</string>
+    <string name="panduan_umrah">Panduan Umrah</string>
+    <string name="doa_manasik">Doa Manasik</string>
+    <string name="informasi">Informasi</string>
+    <string name="paket_umrah">Paket Umrah</string>
+    <string name="cabang_piuh">Cabang dan Piuh</string>
+    <string name="jadwal">Jadwal</string>
+</resources>

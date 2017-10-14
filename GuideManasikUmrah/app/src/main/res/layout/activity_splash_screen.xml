@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.edsnowden.guidemanasikumrah.SplashScreen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:background="#ddd"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:padding="35dp"
+        android:src="@drawable/logo_cahyadelapan"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="157dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView" />
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp" />
+
+</RelativeLayout>
