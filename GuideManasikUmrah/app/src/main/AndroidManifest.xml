@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreen"
+        <activity
+            android:name=".SplashScreen"
             android:noHistory="true"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -18,7 +19,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".PanduanUmrah"
+            android:label="@string/panduan_umrah"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DoaManasik"
+            android:label="@string/doa_manasik"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Informasi"
+            android:label="@string/informasi"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PaketUmrah"
+            android:label="@string/paket_umrah"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Cabang"
+            android:label="@string/cabang_piuh"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".JadwalKeberangkatan"
+            android:label="@string/jadwal"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

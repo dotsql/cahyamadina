@@ -26,16 +26,19 @@
             android:layout_height="wrap_content">
 
             <ImageView
+                android:id="@+id/panduanUmrah_img"
                 android:layout_width="80dp"
-                android:src="@drawable/book"
-                android:layout_height="80dp" />
+                android:layout_height="80dp"
+                android:src="@drawable/book" />
+
             <TextView
+                android:id="@+id/panduanUmrah_txt"
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
+                android:gravity="center"
                 android:text="@string/panduan_umrah"
-                android:textSize="14dp"
-                android:gravity="center"
-                android:layout_height="wrap_content" />
+                android:textSize="14dp" />
 
         </LinearLayout>
 
@@ -47,16 +50,19 @@
             android:layout_height="wrap_content">
 
             <ImageView
+                android:id="@+id/doaManasik_img"
                 android:layout_width="80dp"
-                android:src="@drawable/volume_up_interface_symbol"
-                android:layout_height="80dp" />
+                android:layout_height="80dp"
+                android:src="@drawable/volume_up_interface_symbol" />
+
             <TextView
+                android:id="@+id/doaManasik_txt"
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
+                android:gravity="center"
                 android:text="@string/doa_manasik"
-                android:textSize="14dp"
-                android:gravity="center"
-                android:layout_height="wrap_content" />
+                android:textSize="14dp" />
 
         </LinearLayout>
 
@@ -68,16 +74,19 @@
             android:layout_height="wrap_content">
 
             <ImageView
+                android:id="@+id/informasi_img"
                 android:layout_width="80dp"
-                android:src="@drawable/information_button"
-                android:layout_height="80dp" />
+                android:layout_height="80dp"
+                android:src="@drawable/information_button" />
+
             <TextView
+                android:id="@+id/informasi_txt"
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="@string/informasi"
-                android:textSize="14dp"
                 android:gravity="center"
-                android:layout_height="wrap_content" />
+                android:text="@string/informasi"
+                android:textSize="14dp" />
 
         </LinearLayout>
 
@@ -98,16 +107,19 @@
             android:layout_height="wrap_content">
 
             <ImageView
+                android:id="@+id/paketUmrah_img"
                 android:layout_width="80dp"
-                android:src="@drawable/archive_black_box"
-                android:layout_height="80dp" />
+                android:layout_height="80dp"
+                android:src="@drawable/archive_black_box" />
+
             <TextView
+                android:id="@+id/paketUmrah_txt"
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
+                android:gravity="center"
                 android:text="@string/paket_umrah"
-                android:textSize="16dp"
-                android:gravity="center"
-                android:layout_height="wrap_content" />
+                android:textSize="16dp" />
 
         </LinearLayout>
 
@@ -119,16 +131,19 @@
             android:layout_height="wrap_content">
 
             <ImageView
+                android:id="@+id/cabangdanPiuh_img"
                 android:layout_width="80dp"
-                android:src="@drawable/group_profile_users"
-                android:layout_height="80dp" />
+                android:layout_height="80dp"
+                android:src="@drawable/group_profile_users" />
+
             <TextView
+                android:id="@+id/cabangdanPiuh_txt"
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
+                android:gravity="center"
                 android:text="@string/cabang_piuh"
-                android:textSize="14dp"
-                android:gravity="center"
-                android:layout_height="wrap_content" />
+                android:textSize="14dp" />
 
         </LinearLayout>
 
@@ -140,16 +155,19 @@
             android:layout_height="wrap_content">
 
             <ImageView
+                android:id="@+id/jadwal_img"
                 android:layout_width="80dp"
-                android:src="@drawable/calendar_with_spring_binder_and_date_blocks"
-                android:layout_height="80dp" />
+                android:layout_height="80dp"
+                android:src="@drawable/calendar_with_spring_binder_and_date_blocks" />
+
             <TextView
+                android:id="@+id/jadwal_txt"
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="@string/jadwal"
-                android:textSize="14dp"
                 android:gravity="center"
-                android:layout_height="wrap_content" />
+                android:text="@string/jadwal"
+                android:textSize="14dp" />
 
         </LinearLayout>
 
