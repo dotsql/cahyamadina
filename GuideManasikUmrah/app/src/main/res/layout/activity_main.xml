@@ -33,7 +33,7 @@
                 android:layout_width="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/panduan_umrah"
-                android:textSize="16dp"
+                android:textSize="14dp"
                 android:gravity="center"
                 android:layout_height="wrap_content" />
 
@@ -54,7 +54,7 @@
                 android:layout_width="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/doa_manasik"
-                android:textSize="16dp"
+                android:textSize="14dp"
                 android:gravity="center"
                 android:layout_height="wrap_content" />
 
@@ -75,7 +75,7 @@
                 android:layout_width="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/informasi"
-                android:textSize="16dp"
+                android:textSize="14dp"
                 android:gravity="center"
                 android:layout_height="wrap_content" />
 
@@ -126,7 +126,7 @@
                 android:layout_width="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/cabang_piuh"
-                android:textSize="16dp"
+                android:textSize="14dp"
                 android:gravity="center"
                 android:layout_height="wrap_content" />
 
@@ -147,7 +147,7 @@
                 android:layout_width="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/jadwal"
-                android:textSize="16dp"
+                android:textSize="14dp"
                 android:gravity="center"
                 android:layout_height="wrap_content" />
 
