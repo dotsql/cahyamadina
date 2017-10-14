@@ -6,5 +6,12 @@
     <string name="cabang_piuh">Cabang dan PIUH</string>
     <string name="jadwal">Jadwal</string>
     <string name="panduan_umrah">Panduan Umrah</string>
+    <string name="title_activity_doa_manasik1">DoaManasik1</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tab_doa">TabDoa</string>
+    <string name="title_activity_doa_manasik">DoaManasik</string>
+    <string name="doa_thawaf">Doa Thawaf</string>
+    <string name="doa_sai">Doa Sai</string>
+    <string name="doa_tahalul">Doa Tahalul</string>
 
 </resources>

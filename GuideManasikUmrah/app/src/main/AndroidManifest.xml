@@ -25,10 +25,6 @@
             android:label="@string/panduan_umrah"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".DoaManasik"
-            android:label="@string/doa_manasik"
-            android:parentActivityName=".MainActivity" />
-        <activity
             android:name=".Informasi"
             android:label="@string/informasi"
             android:parentActivityName=".MainActivity" />
@@ -43,7 +39,16 @@
         <activity
             android:name=".JadwalKeberangkatan"
             android:label="@string/jadwal"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DoaManasik"
+            android:label="@string/doa_manasik"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.edsnowden.guidemanasikumrah.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
